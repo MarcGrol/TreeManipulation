@@ -1,0 +1,98 @@
+{
+  "name": "Marc Grol",
+  "summary": "+31648928856",
+  "details": "Regio Utrecht",
+  "badge": 3,
+  "thumbnailUrl": "https://mb.rabobank.nl/api/thumbnail",
+  "resourceUrl": "https://mb.rabobank.nl/api/",
+  "tags": [
+    "retail"
+  ],
+  "children": [
+    {
+      "name": "producten",
+      "resourceUrl": "https://mb.rabobank.nl/api/product",
+      "tags": [
+        "product"
+      ],
+      "children": [
+        {
+          "name": "betalen",
+          "badge": 2,
+          "resourceUrl": "https://mb.rabobank.nl/api/product?type\u003dpaymentAccount",
+          "tags": [
+            "product",
+            "account",
+            "payment"
+          ],
+          "children": [
+            {
+              "name": "50.14.15.505",
+              "value": "3416.89",
+              "summary": "Betaalrekening",
+              "details": "Gedeelde betaalrekening",
+              "badge": 1,
+              "resourceUrl": "https://mb.rabobank.nl/api/product/123",
+              "tags": [
+                "product",
+                "account",
+                "payment"
+              ]
+            },
+            {
+              "name": "40.67.53.318",
+              "value": "-674.56",
+              "summary": "Betaalrekening",
+              "details": "Eigen betaalrekening",
+              "badge": 1,
+              "resourceUrl": "https://mb.rabobank.nl/api/product/456",
+              "tags": [
+                "product",
+                "account",
+                "payment"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sparen",
+      "resourceUrl": "https://mb.rabobank.nl/api/product?type\u003dsavingsAccount",
+      "tags": [
+        "product",
+        "account",
+        "savings"
+      ],
+      "children": [
+        {
+          "name": "12.54.33.783",
+          "value": "47572.78",
+          "summary": "Spaarrekening",
+          "details": "Eigen spaarrekening",
+          "resourceUrl": "https://mb.rabobank.nl/api/product/789",
+          "tags": [
+            "product",
+            "account",
+            "savings"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "resourceUrl": "https://mb.rabobank.nl/api/service",
+      "tags": [
+        "product"
+      ],
+      "children": [
+        {
+          "name": "block card"
+        },
+        {
+          "name": "service 2"
+        }
+      ]
+    }
+  ]
+}
